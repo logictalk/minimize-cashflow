@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/5548f5ed00.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <title>minimize cashflow</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light "
+        style="font-size: 25px; font-family: sans-serif ; background-color: rgb(133, 10, 10);">
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/DTU,_Delhi_official_logo.png/220px-DTU,_Delhi_official_logo.png"
+            width="95" height="70" class="d-inline-block align-top" alt="">
+       <a id="heading">MINIMIZE CASHFLOW</a> 
+
+    </nav>
+    <div id="container">
+        <div id="mynetwork"></div>
+        <div id="container2">
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large ">
+                Click on solve to get Solution !!
+            </span>
+            <div id="mynetwork2" style="display: none"></div>
+        </div>
+    </div>
+
+    <div style="background-color : rgb(8, 6, 117);">
+        <br>
+        <button type="button" class="btn btn-danger " id="generate-graph">Get New Problem</button>
+        <br>
+        <button type="button" class="btn btn-success" id="solve">Solve</button>
+    </div>
+   
+</body>
+
+</html>
